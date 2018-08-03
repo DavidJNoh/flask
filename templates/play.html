@@ -1,0 +1,31 @@
+<head>
+    <style>
+    body {
+        background-color: white;
+    }
+    h1 {
+        color: black;
+        text-align: center;
+    } 
+    .bang{
+        padding: 10px, 50px;
+    }
+    .a{
+        width: 100px;
+        height: 100px;
+        background-color: lightblue;
+        margin:0px 15px;
+        display: inline-block;
+    }
+
+    </style>
+    </head>
+    <body>
+        <h1>Hello World</h1>
+        <div class="bang">
+            {% for x in range(0,times): %}
+                <div class= 'a' style="background-color: {{color}}"></div>
+            {% endfor%}
+        </div>
+    
+    </body>
